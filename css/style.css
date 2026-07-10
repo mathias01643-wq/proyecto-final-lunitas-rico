@@ -1,3 +1,37 @@
+header .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #8b5e3c;
+}
+header .nav-link {
+  font-weight: 500;
+  transition: 0.3s;
+}
+header .nav-link:hover {
+  color: #8b5e3c;
+}
 
+.hero {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #8b5e3c;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+.hero img {
+  width: 100%;
+  border-radius: 15px;
+}
+.hero .btn {
+  margin-right: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
