@@ -1,0 +1,21 @@
+@use "../base/variables" as *;
+
+.footer {
+
+    background-color: $color-principal;
+    color: white;
+
+    h4 {
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    hr {
+        border-color: rgba(255,255,255,.3);
+    }
+
+}

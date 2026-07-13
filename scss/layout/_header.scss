@@ -1,18 +1,29 @@
 @use "../base/variables" as *;
 
 header {
-  .navbar-brand {
-    font-size: 2rem;
-    font-weight: bold;
-    color: $color-principal;
-  }
 
-  .nav-link {
-    font-weight: 500;
-    transition: 0.3s;
-
-    &:hover {
-      color: $color-principal;
+    .navbar {
+        background-color: $color-principal !important;
     }
-  }
+
+    .navbar-brand {
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    .nav-link {
+        color: white;
+        font-weight: 500;
+        transition: .3s;
+
+        &:hover {
+            color: #f8d7a3;
+        }
+    }
+
+    .navbar-brand:hover {
+        color: white;
+    }
+
 }
