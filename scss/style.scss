@@ -7,7 +7,11 @@
 @use "./components/buttons";
 @use "./pages/home";
 
-    
+@use "./pages/promociones";
 
 @use "./pages/beneficios";
-@use "./pages/promociones";
+
+
+@use "./pages/nosotros";
+@use "./pages/productos";
+@use "./pages/servicios";

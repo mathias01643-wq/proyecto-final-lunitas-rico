@@ -1,0 +1,20 @@
+@use "../base/variables" as *;
+
+.nosotros {
+
+    h1 {
+        color: $color-principal;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+
+    img {
+        border-radius: 15px;
+    }
+
+}

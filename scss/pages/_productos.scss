@@ -1,24 +1,22 @@
 @use "../base/variables" as *;
 
-.promociones {
+.productos {
 
-    background-color: #fff;
-
-    h2 {
+    h1 {
         color: $color-principal;
         font-weight: bold;
     }
 
     .card {
-        border: none;
-        transition: transform .3s ease;
+        transition: .3s ease;
     }
 
     .card:hover {
         transform: translateY(-8px);
     }
 
-    h3 {
-        font-size: 3rem;
+    .card-img-top {
+        height: 250px;
+        object-fit: cover;
     }
 }
