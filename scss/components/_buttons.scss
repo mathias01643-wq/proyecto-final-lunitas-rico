@@ -1,0 +1,31 @@
+@use "../base/variables" as *;
+
+.btn-warning {
+
+    background-color: $color-principal;
+    border-color: $color-principal;
+    color: white;
+
+    &:hover {
+
+        background-color: darken($color-principal, 8%);
+        border-color: darken($color-principal, 8%);
+        color: white;
+
+    }
+
+}
+
+.btn-outline-dark {
+
+    color: $color-principal;
+    border-color: $color-principal;
+
+    &:hover {
+
+        background-color: $color-principal;
+        color: white;
+
+    }
+
+}

@@ -56,6 +56,26 @@ header .navbar-brand:hover {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+.btn-warning {
+  background-color: #8b5e3c;
+  border-color: #8b5e3c;
+  color: white;
+}
+.btn-warning:hover {
+  background-color: rgb(110.5015075377, 74.727638191, 47.6984924623);
+  border-color: rgb(110.5015075377, 74.727638191, 47.6984924623);
+  color: white;
+}
+
+.btn-outline-dark {
+  color: #8b5e3c;
+  border-color: #8b5e3c;
+}
+.btn-outline-dark:hover {
+  background-color: #8b5e3c;
+  color: white;
+}
+
 .productos .card {
   height: 100%;
 }
@@ -142,6 +162,11 @@ header .navbar-brand:hover {
 }
 .servicios .fs-1 {
   font-size: 3rem !important;
+}
+
+body {
+  background-color: #fdfaf6;
+  color: #333333;
 }
 
 /*# sourceMappingURL=style.css.map */
